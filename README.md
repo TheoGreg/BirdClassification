@@ -11,7 +11,7 @@ As a first step, Faster-RCNN is applied to the dataset in order to crop images a
 ![alt text](https://github.com/TheoGreg/BirdClassification/blob/main/results/FasterRCNN_cropping.png)
 
 The model is a form of majority voting between Resnext, Resnet, VGG, Densenet and Efficientnet classificators. 
-This Reliable Majority Voting (RMV) method was mainly used to enhance robustness.
+Reliable Majority Voting (RMV) method was mainly used to enhance robustness thanks to an ensemble model. The concept is a voting system between classificators whose votes are weighted by their train accuracy on their predicted classes.
 
 ![alt text](https://github.com/TheoGreg/BirdClassification/blob/main/results/model_validation_accuracy.png)
 
